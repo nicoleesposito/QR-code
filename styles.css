@@ -1,5 +1,7 @@
 body {
     background-color: #d5e1ef;
+    
+
 
 }
 
@@ -10,6 +12,7 @@ body {
     padding: 20px;
     margin: 200px auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
     
@@ -18,4 +21,28 @@ body {
 .QR-CODE {
     width: 300px;
     border-radius: 10px;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+.Text {
+    padding: 5px;
+    margin: 5px;
+}
+
+.Header {
+    font-size: 20px;
+    font-family: Outfit;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+.Para1 {
+    font-size: 15px;
+    font-family: Outfit;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
 }
