@@ -6,17 +6,17 @@ body {
   width: 300px;
   border-radius: 20px;
   background: white;
-  padding: 15px;
+  padding: 16px 13px;
   margin: 150px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 50px 50px 0px rgba(0, 0, 0, 0.1);
 }
 
 .QR-CODE {
-  width: 300px;
+  width: 290px;
   border-radius: 10px;
 }
 
@@ -26,12 +26,12 @@ body {
 }
 
 .Text {
-  padding: 1px;
+  padding: 0px 4px 15px 4px;
   margin: 5px;
 }
 
 .Header {
-  font-size: 18px;
+  font-size: 22px;
   font-family: Outfit;
   color: hsl(218, 44%, 22%);
   font-weight: 700;
