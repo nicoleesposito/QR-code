@@ -26,12 +26,12 @@ body {
 }
 
 .Text {
-  padding: 0px 3px 15px 3px;
+  padding: 0px 4px 15px 4px;
   margin: 5px;
 }
 
 .Header {
-  font-size: 21px;
+  font-size: 22px;
   font-family: Outfit;
   color: hsl(218, 44%, 22%);
   font-weight: 700;
