@@ -1,48 +1,44 @@
 body {
-    background-color: #d5e1ef;
-    
-
-
+  background-color: #d5e1ef;
 }
 
 .card {
-    width: 300px;
-    border-radius: 10px;
-    background: white;
-    padding: 20px;
-    margin: 200px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    
+  width: 300px;
+  border-radius: 20px;
+  background: white;
+  padding: 15px;
+  margin: 150px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .QR-CODE {
-    width: 300px;
-    border-radius: 10px;
+  width: 300px;
+  border-radius: 10px;
 }
 
 @font-face {
-    font-family: Outfit;
-    src: url(https://fonts.google.com/specimen/Outfit);
+  font-family: Outfit;
+  src: url(https://fonts.google.com/specimen/Outfit);
 }
 
 .Text {
-    padding: 5px;
-    margin: 5px;
+  padding: 4px;
+  margin: 5px;
 }
 
 .Header {
-    font-size: 20px;
-    font-family: Outfit;
-    color: hsl(218, 44%, 22%);
-    font-weight: 700;
+  font-size: 20px;
+  font-family: Outfit;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
 }
 
 .Para1 {
-    font-size: 15px;
-    font-family: Outfit;
-    color: hsl(220, 15%, 55%);
-    font-weight: 400;
+  font-size: 15px;
+  font-family: Outfit;
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
 }
